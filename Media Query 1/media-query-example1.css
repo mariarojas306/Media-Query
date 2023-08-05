@@ -35,6 +35,11 @@ figure {
 }
 .container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+  }
+  .container > div{
+    width: 220px;
   }
   
   .column {
